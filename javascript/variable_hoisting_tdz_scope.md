@@ -81,7 +81,8 @@ name3 = 'Spider-Man'; // error !
 ### 3. 스코프
 
 **var** : 함수 스코프(function-scoped)   
-**let, const** : 블록 스코프(block-scoped) - 모든 코드블록에서 선언된 변수는 코드블록 내에서만 유요하며 외부에선 접근할 수 없다. 즉 코드블록 내부에서 선언된 변수는 지역 변수다.   
+**let, const** : 블록 스코프(block-scoped) - 모든 코드블록에서 선언된 변수는 코드블록 내에서만 유요하며 외부에선 접근할 수 없다.   
+즉 코드블록 내부에서 선언된 변수는 지역 변수다.   
 *함수, if문, for문, while문, try/catch문 등*   
 
 **var**는 if문 밖에서 사용이 가능하지만 **let, const**는 불가능하다.   
