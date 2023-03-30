@@ -10,14 +10,14 @@ _1 TILs and counting..._
 
 ### 1 most recent TILs
 
-- [변수 hoisting tdz scope](javascript/변수[hoisting tdz scope].md) - Thu Mar 30 17:39:34 2023 +0900
+- [변수 hoisting tdz scope](javascript/변수-hoisting tdz scope.md) - Thu Mar 30 17:33:38 2023 +0900
 
 ### Categories
 
 - [javascript](#javascript)
 
 ### [javascript](#javascript)
-- [변수 hoisting tdz scope](javascript/변수[hoisting tdz scope].md)
+- [변수](javascript/변수[hoisting tdz scope].md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
