@@ -1,4 +1,4 @@
-변수 Hoisting TDZ Scope
+변수 hoisting tdz scope
 =============
 
 ### 1. 변수는 let, const, var 가 있다.
