@@ -40,14 +40,13 @@ name = 'Tom';
 console.log(name); // ReferenceError !
 let name = 'Holland';
 ```
-
-**Temporal Dead Zone(TDZ)**
+그렇다고 **let**이 호이스팅 되지 않는 것은 아니다.   
+**let, const**는 **Temporal Dead Zone(TDZ)**의 영향을 받기 때문이다.   
 ```javascript
 console.log(name); // TDZ
 const name = 'Spider-Man'; // 선언 및 할당
 console.log(name); // 사용 가능
 ```
-**let, const**는 **TDZ**의 영향을 받는다.
 이는 코드를 예측 가능하게 하고 전제적인 버그를 줄일 수 있다.
 
 ### 2. 변수의 생성과정
