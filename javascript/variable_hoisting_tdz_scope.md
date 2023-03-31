@@ -41,7 +41,7 @@ console.log(name); // ReferenceError !
 let name = 'Holland';
 ```
 그렇다고 **let**이 호이스팅 되지 않는 것은 아니다.   
-**let, const**는 **Temporal Dead Zone(TDZ)**의 영향을 받기 때문이다.   
+**let, const**는 **Temporal Dead Zone(TDZ)**의 영향을 받기 때문이다.
 ```javascript
 console.log(name); // TDZ
 const name = 'Spider-Man'; // 선언 및 할당
