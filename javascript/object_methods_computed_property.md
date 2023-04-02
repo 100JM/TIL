@@ -24,6 +24,18 @@ const user = {
 // user {32: 32, myname: 'Spider-Man'}
 ```
 
+**예시**
+```javascript
+const makeObj = function(key, value){
+    return {
+        [key] : value
+    };
+}
+
+makeObj('name', 'Petter Parker');
+// {name: 'Petter Parker'}
+```
+
 ### 2. Object - methods(객체에서 사용할 수 있는 메소드)
 #### 2-1 Object.assign() : 객체 복제   
 ```javascript
@@ -69,4 +81,44 @@ const info2 = {
 Object.assign(user, info1, info2);
 // {mind: 'friendly neighborhood', name: 'Petter', job: 'Spider-Man'}
 ```
-**진행중...**
+#### 2-2 Object.keys() : 객체 프로퍼티의 key를 배열로 반환
+```javascript
+const user = {
+    name : 'Petter',
+    job : 'Spider-Man'
+}
+
+Object.keys(user);
+// ['name', 'job']
+```
+
+#### 2-3 Object.values() : 객체 프로퍼티의 value를 배열로 반환
+```javascript
+const user = {
+    name : 'Petter',
+    job : 'Spider-Man'
+}
+
+Object.values(user);
+// ['Petter', 'Spider-Man']
+```
+#### 2-4 Object.entries() : key/value을 모두 배열로 반환
+```javascript
+const user = {
+    name : 'Petter',
+    job : 'Spider-Man'
+}
+
+Object.entries(user);
+// ['naem', 'Petter'], ['job', 'Spider-Man']
+```
+#### 2-5 Object.fromEntries() : key/value배열을 객체로
+```javascript
+const arr = [
+    ['naem', 'Petter'],
+    ['job', 'Spider-Man']
+]
+
+Object.fromEntries(arr);
+// {naem: 'Petter', job: 'Spider-Man'}
+```
