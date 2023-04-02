@@ -27,7 +27,7 @@ const user = {
 Object.keys(user); // ['name', 'job']
 Object.values(user); // ['Petter', 'Spider-Man']
 Object.entries(user); // [Array(2), Array(2)]
-// key가 심볼형은 프로퍼티들은 건너뛴다.
+// key가 심볼형인 프로퍼티들은 건너뛴다. 유일성 보장 !
 ```
 즉 심볼은 특정 객체에 원본 데이터를 건드리지 않고 속성을 추가할 수 있다.
 ```javascript
