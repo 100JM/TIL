@@ -102,7 +102,7 @@ const user = {
 Object.values(user);
 // ['Petter', 'Spider-Man']
 ```
-#### 2-4 Object.entries() : key/value을 모두 배열로 반환
+#### 2-4 Object.entries() : key/value를 모두 배열로 반환
 ```javascript
 const user = {
     name : 'Petter',
