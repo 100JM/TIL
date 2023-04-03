@@ -8,8 +8,8 @@ let a = 'lastName';
 const user = {
     firstName : 'Tom',
     [a] : 'Holland' // lastName : 'Holland'
-    //대괄호로 묶어 위와 같이 표시하면 문자열 'a'가 아닌 변수 a에 할당된 값이 들어간다.
-    //이를 computed property(계산된 프로퍼티)라 부른다.
+    // 대괄호로 묶어 위와 같이 표시하면 문자열 'a'가 아닌 변수 a에 할당된 값이 들어간다.
+    // 이를 computed property(계산된 프로퍼티)라 부른다.
 }
 ```
 
