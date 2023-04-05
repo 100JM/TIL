@@ -110,3 +110,5 @@ let coding = ' coding is fun ';
 
 coding.trim(); // 'coding is fun'
 ```
+
+**진행중...**
