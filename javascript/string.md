@@ -6,6 +6,7 @@ String
 let html = '<div class="title">title</div>';
 ``` 
 html 코드에 class와 같은 부분에 **""** \(큰따옴표)로 된 내용이 주로 들어가기 때문   
+   
 **""** \(큰따옴표)는 영어 문장을 작성하는데 좋다.
 ```javascript
 let time = "It's a 5 o'clock.";
@@ -62,7 +63,7 @@ name.toUpperCase(); // '피터 PARKER'
 ### indexOf(text)
 문자를 인수로 받아 해당 위치를 반환한다.   
 문자가 여러 개일 경우 첫 번째 문자의 위치만 반환하며 문자가 존재하지 않을 경우 -1을 반환한다.  
-주의할 점으로 대소문자를 구분하기 때문에 구분 없이 찾고 싶다면 **toUpperCase() / toLowerCase()**를 활용하자.
+주의할 점으로 대소문자를 구분하기 때문에 구분 없이 찾고 싶다면 **toUpperCase** 혹은 **toLowerCase**를 활용하자.
 ```javascript
 let job = 'Spider-Man';
 
@@ -72,7 +73,7 @@ job.toLowerCase().indexOf('man'); // 7
 ```
 
 ### str.slice(n, m)
-**slice**는 n\(시작점)부터 m까지\(포함하지 않음) 문자을 반환한다.   
+**slice**는 n\(시작점)부터 m까지\(포함하지 않음) 문자를 반환한다.   
 m\(두 번째 인자)가 없으면 문자열 끝까지, 음수이면 끝에서부터 세어 반환한다.
 ```javascript
 let text = 'abcdefg';
@@ -83,7 +84,7 @@ text.slice(2,-2); // 'cde'
 ```
 
 ### str.substring(n, m)
-**substring**은 n과 m사이에 위차하고 있는 문자를 반환한다.   
+**substring**은 n과 m사이에 위치하고 있는 문자를 반환한다.   
 n과 m이 바뀌어도 동작하며 음수는 허용하지 않는다.\(0으로 인식)   
 ```javascript
 let text = 'abcdefg';
