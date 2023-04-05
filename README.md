@@ -8,6 +8,11 @@ _6 TILs and counting..._
 
 ---
 
+### 2 most recent TILs
+
+- [Object - methods / Computed property](javascript/object_methods_computed_property.md) - Thu Mar 30 22:55:32 2023 +0900
+- [생성자 함수](javascript/constructor_function.md) - Thu Mar 30 21:43:27 2023 +0900
+
 ### Categories
 
 - [javascript](#javascript)
