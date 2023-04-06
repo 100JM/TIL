@@ -192,7 +192,7 @@ let arr = ['Hi', 'my name is', 'Tom'];
 let result = arr.join(); // 'Hi,my name is,Tom'
 let result = arr.join(' '); // 'Hi my name is Tom'
 ```
-**split**은 반대로 문자열을 어떤 문자로 나눌것인지 값을 받아 배열로 만들어준다.
+**split**은 반대로 문자열을 어떤 문자 기준으로 나눌것인지 값을 받아 배열로 만들어준다.
 ```javascript
 let user = 'Hi,my name is,Tom';
 
