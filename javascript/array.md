@@ -22,7 +22,7 @@ let arr = [1,2,3,4,5];
 arr.splice(1,2,'Spider-Man','Venom');
 console.log(arr); // [1, 'Spider-Man', 'Venom', 4, 5] 
 ```
-arr.splice(n, 0, x)와 같이 두 번째 인자에 0을 넣으면 아무것도 삭제하지 않고 추가가 가능하다.
+arr.splice(n, 0, x)와 같이 두 번째 인자에 0을 넣으면 아무것도 삭제하지 않고 추가 가능하다.
 ```javascript
 let arr = ['나는','입니다.'];
 
