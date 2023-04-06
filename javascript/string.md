@@ -63,13 +63,16 @@ name.toUpperCase(); // '피터 PARKER'
 ### indexOf(text)
 문자를 인수로 받아 해당 위치를 반환한다.   
 문자가 여러 개일 경우 첫 번째 문자의 위치만 반환하며 문자가 존재하지 않을 경우 -1을 반환한다.  
-주의할 점으로 대소문자를 구분하기 때문에 구분 없이 찾고 싶다면 **toUpperCase** 혹은 **toLowerCase**를 활용하자.
+주의할 점으로 대소문자를 구분하기 때문에 구분 없이 찾고 싶다면 **toUpperCase** 혹은 **toLowerCase**를 활용하자.   
+**indexOf**와 비슷한 기능으로 **includes**가 있으며 true / false를 반환한다.
 ```javascript
 let job = 'Spider-Man';
 
 job.indexOf('Man'); // 7
 job.indexOf('man'); // -1
 job.toLowerCase().indexOf('man'); // 7
+
+job.includes('Man'); // true
 ```
 
 ### str.slice(n, m)
@@ -111,4 +114,50 @@ let coding = ' coding is fun ';
 coding.trim(); // 'coding is fun'
 ```
 
-**진행중...!!!**
+### str.repeat(n)
+해당 문자열을 n번 반복한다.
+```javascript
+let desc = '아이고 난! ';
+
+desc.repeat(3); // '아이고 난! 아이고 난! 아이고 난! '
+```
+
+### 문자열 비교
+문자열도 숫자처럼 비교가 가능하다.   
+```javascript
+1 < 3; // true
+'a' < 'b'; // true
+
+'a'.codePointAt(); // 97 (10진법)
+String.fromCodePoint(97); // 'a'
+```
+
+### 간단한 문자열 메소드 예시
+```javascript
+let intro = [
+    '01 Petter Parker',
+    '02 Tom Holland',
+    '03 Spider-Man'
+];
+
+let info = [];
+
+for(let i = 0; i<intro.length; i++){
+    info.push(intro[i].slice(4));
+};
+
+console.log(info); // ['Petter Parker', 'Tom Holland', 'Spider-Man']
+```
+```javascript
+function hasVenom(str){
+    if(str.indexOf('Venom') > -1){
+        console.log('금칙어가 존재합니다.');
+    }else{
+        console.log('통과');
+    }
+}
+
+hasVenom('I am Spider-Man'); // '통과' (-1)
+hasVenom('We are Venom'); // '금칙어가 존재합니다.' (7)
+hasVenom('Venom'); // '금칙어가 존재합니다.' (0)
+```
