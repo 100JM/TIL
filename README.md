@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_9 TILs and counting..._
+_10 TILs and counting..._
 
 ---
 
@@ -18,6 +18,7 @@ _9 TILs and counting..._
 - [구조 분해 할당(Destructuring assignment)](javascript/destructuring_assignment.md)
 - [숫자(Number)와 수학(Math)](javascript/number_math.md)
 - [Object - methods / Computed property](javascript/object_methods_computed_property.md)
+- [나머지 매개변수(Rest parameters) / 전개 구문(Spread syntax)](javascript/rest_parameters_spread_syntax.md)
 - [arr.sort() / arr.reduce()](javascript/sort_reduce.md)
 - [String](javascript/string.md)
 - [심볼(Symbol)](javascript/symbol.md)
