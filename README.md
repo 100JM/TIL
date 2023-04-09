@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_10 TILs and counting..._
+_11 TILs and counting..._
 
 ---
 
@@ -14,6 +14,7 @@ _10 TILs and counting..._
 
 ### [javascript](#javascript)
 - [Array](javascript/array.md)
+- [클로저(Closure)](javascript/closure.md)
 - [생성자 함수](javascript/constructor_function.md)
 - [구조 분해 할당(Destructuring assignment)](javascript/destructuring_assignment.md)
 - [숫자(Number)와 수학(Math)](javascript/number_math.md)
