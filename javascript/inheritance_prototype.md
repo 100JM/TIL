@@ -12,4 +12,4 @@ user.hasOwnProperty('age'); // false
 ```
 그렇다면 **hasOwnProperty** 함수는 어디에서 오는 걸까?   
 바로 여기에 있다.   
-![prototype](../img/prototype.png)
+<img src = "../img/prototype.png" width = "30%" height = "30%">
