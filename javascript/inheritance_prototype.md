@@ -100,9 +100,9 @@ const x6 = new Bmw('black');
 x5.wheels; // 4
 x6.drive(); // 'drive...'
 ```
-생성자 함수개 새로운 객체를 생성해낼떄 그 객체는 생성자의 **instance**라고 불린다.   
-자바스크립트에선 **instanceof** 연산자로 확인할 수 있다.
-또한 생성자 함수로 생성된 instance객체에는 **constructor**라는 프로퍼티가 있다.   
+생성자 함수가 새로운 객체를 생성할때 그 객체는 생성자의 **instance**라고 불린다.   
+자바스크립트에선 **instanceof** 연산자로 확인할 수 있다.   
+또한 생성자 함수로 생성된 **instance**객체에는 **constructor**라는 프로퍼티가 있다.   
 **constructor**는 생성자를 가르킨다.
 ```javascript
 x5 instanceof Bmw; // true
