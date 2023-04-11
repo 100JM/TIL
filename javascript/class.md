@@ -31,6 +31,25 @@ const newUser = new NewUser('Petter', 29); // NewUser {name: 'Petter', age: 29}
 **Class**에는 **constructor**가 있으며 이는 객체를 만들어주는 메소드다.   
 또한 showName과 같이 **Class**내에 정의한 메소드는 생성된 객체의 **prototype**에 저장된다.
 
-<img src = "../img/class.png" width = "30%" height = "30%">  
+<img src = "../img/class.png" width = "50%" height = "50%">  
 
-**생성자 함수**로 생성된 user는 객체 내부에 showName이 있고, **Class**로 생성된 newUser는 **prototype** 내부에 있다.
+**생성자 함수**로 생성된 user는 객체 내부에 showName이 있고, **Class**로 생성된 newUser는 **prototype** 내부에 있다.   
+**생성자 함수**에서도 **Class**처럼 구현하기 위해선 아래와 같이 변경하면 된다.
+```javascript
+const User = function(name, age){
+    this.name = name;
+    this.age = age;
+    // this.showName = function(){
+    //     console.log(this.name);
+    // };
+};
+
+User.prototype.showName = function(){
+    console.log(this.name);
+};
+```
+그렇다면 단순히 문법의 편의성을 위해서 **Class**가 탄생한 것일까?
+**생성자 함수**의 경우 **new** 연산자를 적지 않더라도 에러가 발생하지 않는다.   
+하지만 **Class**는 TypeError가 발생하여 실수를 사전에 방지할 수 있다.
+
+<img src = "../img/class_typeError.png" width = "50%" height = "50%">  
