@@ -68,3 +68,13 @@ bindFn(); // Hi my name is Petter
 // user.showName.call(user);
 // user.showName.apply(user);
 ```
+**react** 등의 프론트엔드에서 함수를 prop으로 전달하는 경우 **bind**를 사용하기도 한다.
+```javascript
+function showName(name){
+    console.log(name);
+};
+<Component callback={() => showName('Petter');}>
+
+<Component callback={showName.bind('Petter');}>
+```
+이처럼 함수와 인자를 모두 전달하기 위해 불필요한 함수를 추가하지 않아도 되어 편리하다.
