@@ -70,9 +70,7 @@ bindFn(); // Hi my name is Petter
 ```
 **react** 등의 프론트엔드에서 함수를 prop으로 전달하는 경우 **bind**를 사용하기도 한다.
 ```javascript
-function showName(name){
-    console.log(name);
-};
+//showName 이라는 함수가 있다는 가정
 
 <Component callback={() => showName('Petter');}>
 
