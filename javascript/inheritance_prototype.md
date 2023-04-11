@@ -12,6 +12,7 @@ user.hasOwnProperty('age'); // false
 ```
 그렇다면 **hasOwnProperty** 함수는 어디에서 오는 걸까?   
 바로 여기에 있다.   
+
 <img src = "../img/prototype.png" width = "30%" height = "30%">   
 
 이를 **프로토타입**이라고 한다.   
@@ -25,7 +26,7 @@ const user = {
 };
 
 user.hasOwnProperty(); // 'Hello'
-```
+```   
    
 **상속**이라는 개념을 통해 **프로토타입**의 동작 원리를 알아보자.
 ```javascript
@@ -62,7 +63,7 @@ x5.drive(); // 'drive...'
 bmw는 car를 상속했고 x5는 bmw를 상속했다.   
 color는 x5도 갖고있기 때문에 x5에서 찾은 후 탐색을 멈추었고 owner는 bmw로 올라가 탐색, drive는 bmw의 위인 car까지 올라가 탐색한다.   
 이것을 **prototype chain**이라고 한다.   
-
+   
 **for in**을 사용해 탐색해보기
 ```javascript
 for(proto in x5){
@@ -81,8 +82,8 @@ for(proto in x5){
 Object.keys(x5); // 'color'
 Object.values(x5); // 'gray'
 /*키, 값과 관련된 객체 내장메소드는 상속된 프로퍼티는 나오지 않는다.*/
-```
-
+```   
+   
 생성자 함수를 이용해보기
 ```javascript
 const Bmw = function(color){
