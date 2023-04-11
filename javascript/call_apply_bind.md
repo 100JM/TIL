@@ -73,6 +73,7 @@ bindFn(); // Hi my name is Petter
 function showName(name){
     console.log(name);
 };
+
 <Component callback={() => showName('Petter');}>
 
 <Component callback={showName.bind('Petter');}>
