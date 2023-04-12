@@ -52,16 +52,11 @@ User.prototype.showName = function(){
 **생성자 함수**의 경우 **new** 연산자를 적지 않더라도 에러가 발생하지 않는다.   
 하지만 **Class**는 TypeError가 발생하여 실수를 사전에 방지할 수 있다.
 
-<img src = "../img/class_typeError.png" width = "50%" height = "50%">  
-   
-   
+<img src = "../img/class_typeError.png" width = "50%" height = "50%">   
 
 newUser의 **constructor**를 보면 **Class**라고 명시되어 있어 **Class**를 통해 생성되었다는 것을 알 수 있고 이러한 경우 **new**없이 호출하면 에러가 발생하도록 설계되어있다.
 
-<img src = "../img/class_constructor.png" width = "40%" height = "40%"> 
-
-   
-   
+<img src = "../img/class_constructor.png" width = "40%" height = "40%">    
 
 **Class**와 **생성자 함수**는 상속을 하는 키워드도 다르다.   
 **생성자 함수**에서 **prototype**을 사용했다면 **Class**는 **extends** 키워드를 사용한다.
