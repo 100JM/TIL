@@ -54,6 +54,6 @@ User.prototype.showName = function(){
 
 <img src = "../img/class_typeError.png" width = "50%" height = "50%">  
 
-newUser의 **constructor**를 보면 **Class**라고 명시되어 있어 **Class**를 통해 생성되었고 이러한 경우 **new**없이 호출하면 에러가 발생하도록 설계되어있다.
+newUser의 **constructor**를 보면 **Class**라고 명시되어 있어 **Class**를 통해 생성되었다는 것을 알 수 있고 이러한 경우 **new**없이 호출하면 에러가 발생하도록 설계되어있다.
 
 <img src = "../img/class_constructor.png" width = "40%" height = "40%"> 
