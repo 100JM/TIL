@@ -53,12 +53,16 @@ User.prototype.showName = function(){
 하지만 **Class**는 TypeError가 발생하여 실수를 사전에 방지할 수 있다.
 
 <img src = "../img/class_typeError.png" width = "50%" height = "50%">  
+   
+   
 
 newUser의 **constructor**를 보면 **Class**라고 명시되어 있어 **Class**를 통해 생성되었다는 것을 알 수 있고 이러한 경우 **new**없이 호출하면 에러가 발생하도록 설계되어있다.
 
 <img src = "../img/class_constructor.png" width = "40%" height = "40%"> 
 
    
+   
+
 **Class**와 **생성자 함수**는 상속을 하는 키워드도 다르다.   
 **생성자 함수**에서 **prototype**을 사용했다면 **Class**는 **extends** 키워드를 사용한다.
 ```javascript
@@ -88,7 +92,7 @@ x5.stop(); // 'stop'
 x5.park(); // 'park'
 ```
    
-**Class**에는 **메소드 오버라이딩(method overriding)**과 **생성자(constructor) 오버라이딩**이 있다.   
+**Class**에는 **메소드(method) 오버라이딩**과 **생성자(constructor) 오버라이딩**이 있다.   
 **메소드 오버라이딩**은 상속받는 **Class**에서 부모 **Class**와 같은 이름의 메소드 이름을 정의하게 되면 덮어쓰게 된다.   
 만약 부모의 메소드를 계속 이용하면서 확장하고 싶다면 **super** 키워드를 사용하면 된다.
 ```javascript
