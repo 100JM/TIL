@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_15 TILs and counting..._
+_16 TILs and counting..._
 
 ---
 
@@ -22,6 +22,7 @@ _15 TILs and counting..._
 - [상속과 프로토타입](javascript/inheritance_prototype.md)
 - [숫자(Number)와 수학(Math)](javascript/number_math.md)
 - [Object - methods / Computed property](javascript/object_methods_computed_property.md)
+- [Promise](javascript/promise.md)
 - [나머지 매개변수(Rest parameters) / 전개 구문(Spread syntax)](javascript/rest_parameters_spread_syntax.md)
 - [setTimeout / setInterval](javascript/settimeout_stinterval.md)
 - [arr.sort() / arr.reduce()](javascript/sort_reduce.md)
