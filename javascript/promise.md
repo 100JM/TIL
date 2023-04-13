@@ -38,17 +38,17 @@ const pr = new Promise((resolve, reject) => {
 
 pr.then(
     function(result){ // 이행 되었을때
-        console.log(result);
+        console.log(result); // 'success'
     },
     function(err){ // 거부 되었을때
-        console.log(err);
+        console.log(err); // 'fail'
     }
 );
 ```
    
 **then** 이외에 사용할 수 있는것은 **catch**와 **finally**이다.   
-**catch**는 **reject**인 경우에만 실행된다.   
-**catch**문을 사용하면 가독성도 더 좋고 첫 번째 함수를 실행했을때 나오는 error를 잡아줄 수 도 있기때문에 사용하는 것이 더좋다.   
+**catch**는 reject인 경우에만 실행된다.   
+**catch**문을 사용하면 가독성도 더 좋고 첫 번째 함수를 실행했을때 나오는 error를 잡아줄 수 도 있기때문에 사용하는 것이 더 좋다.   
 ```javascript
 pr.then(
     function(result){ 
