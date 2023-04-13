@@ -80,3 +80,88 @@ pr.then(
 // 'success'
 // 'end'
 ```
+
+### callback hell에서 벗어나기
+아래와 같이 1,2,3번 함수를 실행하는 로직을 **Promise**를 사용하지 않고 구현 한다면 로직이 추가될수록 뎁스가 깊어지면서 callback hell, 콜백 지옥에 빠지게 된다.
+```javascript
+const fn1 = (callback) => {
+    setTimeout(() => {
+        console.log('1번 함수 실행');
+        callback();
+    }, 3000)
+};
+
+const fn2 = (callback) => {
+    setTimeout(() => {
+        console.log('2번 함수 실행');
+        callback();
+    }, 6000)
+};
+
+const fn3 = (callback) => {
+    setTimeout(() => {
+        console.log('3번 함수 실행');
+        callback();
+    }, 2000)
+};
+
+
+
+console.log('start');
+console.time('time-check');
+
+fn1(function(){
+    fn2(function(){
+        fn3(function(){
+            console.log('end');
+            console.timeEnd('time-check');
+        })
+    })
+});
+// start, 1번 함수 실행, 2번 함수 실행, 3번 함수 실행, end
+// time-check: 11027.3369140625 ms
+```
+**callback**함수가 아닌 **Promise**를 사용하여 구현해보자.   
+아래와 같이 **Promise**들이 연결되는 것을 **Promise chaining**이라 한다.
+```javascript
+const fn1 = () => {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res('1번 함수 실행');
+        },3000);
+    });
+};
+
+const fn2 = (msg) => {
+    console.log(msg);
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res('2번 함수 실행');
+        },6000);
+    });
+};
+
+const fn3 = (msg) => {
+    console.log(msg);
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res('3번 함수 실행');
+        },2000);
+    });
+};
+
+console.log('start');
+console.time('time-check');
+
+fn1()
+    .then((result) => fn2(result))
+    .then((result) => fn3(result))
+    .then((result) => console.log(result))
+    .catch((err) => console.log(err))
+    .finally(() => {
+        console.log('end');
+        console.timeEnd('time-check');
+    });
+// start, 1번 함수 실행, 2번 함수 실행, 3번 함수 실행, end
+// time-check: 11042.4560546875 ms
+```
