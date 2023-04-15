@@ -166,4 +166,30 @@ fn1()
 // time-check: 11042.4560546875 ms
 ```
 
-**진행중**
+### Promise.all
+**Promise.all**은 여러개의 **Promise**들을 비동기적으로 실행하여 처리 할 수 있으며, 하나의 **Promise**라도 reject를 반환하거나 오류가 날 경우 모든 **Promise**들을 reject 처리한다.   
+하나의 정보라도 누락될 경우 화면을 보여줘서는 안될 때 사용하곤 한다.
+```javascript
+console.time('time-check');
+Promise.all([fn1(), fn2(), fn3()]).then((res, rej) => {
+    console.log(res);
+})
+.catch((err) => console.log(err))
+.finally(() => console.timeEnd('time-check'));
+// ['1번 함수 실행', '2번 함수 실행', '3번 함수 실행']
+// time-check: 6007.13916015625 ms
+```
+
+### Promise.race
+**Promise.race**는 하나의 **Promise**라도 1등으로 완료되면 종료된다.   
+용량이 큰 이미지들을 로딩하는데 그중 하나라도 완료되면 그 이미지를 보여줄 때 사용하면된다.
+```javascript
+console.time('time-check');
+Promise.race([fn1(), fn2(), fn3()]).then((res, rej) => {
+    console.log(res);
+})
+.catch((err) => console.log(err))
+.finally(() => console.timeEnd('time-check'));
+// 3번 함수 실행
+// time-check: 2009.635986328125 ms
+```
