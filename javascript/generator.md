@@ -28,7 +28,7 @@ function* fn() {
     console.log('Petter');
     console.log('Parker');
     yield 'Spider-Man';
-    
+
     return 'end';
 };
 
@@ -46,3 +46,5 @@ gFn.next();
 gFn.next();
 // {value: 'end', done: true}
 ```
+
+**진행중**
