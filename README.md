@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_17 TILs and counting..._
+_18 TILs and counting..._
 
 ---
 
@@ -20,6 +20,7 @@ _17 TILs and counting..._
 - [클로저(Closure)](javascript/closure.md)
 - [생성자 함수](javascript/constructor_function.md)
 - [구조 분해 할당(Destructuring assignment)](javascript/destructuring_assignment.md)
+- [Generator](javascript/generator.md)
 - [상속과 프로토타입](javascript/inheritance_prototype.md)
 - [숫자(Number)와 수학(Math)](javascript/number_math.md)
 - [Object - methods / Computed property](javascript/object_methods_computed_property.md)
