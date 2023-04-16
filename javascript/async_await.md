@@ -42,7 +42,7 @@ showName();
 // 3초뒤 'Petter'
 ```
 
-**Promise**의 체인형식 then 메소드를 **async**, **await**으로 바꿔보자.
+**Promise**의 체인형식 then 메소드를 **async**, **await**으로 바꿔보자.   
 예외처리에는 try /catch 문을 사용해주면 된다.
 ```javascript
 const fn1 = () => {
