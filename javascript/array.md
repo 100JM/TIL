@@ -37,7 +37,7 @@ console.log(result); // [2, 3]
 ```
 
 ### arr.slice(n, m)
-n부터 m까지 반환, **String.slice**와 마찬가지로 m은 포함하지 않는다.   
+n부터 m까지 반환, **String.splice**와 마찬가지로 m은 포함하지 않는다.   
 괄호안에 아무것도 넣지 않으면 배열이 복사된다.
 ```javascript
 let arr = [1,2,3,4,5];
