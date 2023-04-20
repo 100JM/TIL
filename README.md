@@ -34,7 +34,7 @@ _19 TILs and counting..._
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
 
 ### [typescript](#typescript)
-- [TypeScript](typescript/why_typescript.md)
+- [TypeScript란?](typescript/why_typescript.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
