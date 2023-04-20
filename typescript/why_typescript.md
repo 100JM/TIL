@@ -1,4 +1,4 @@
-TypeScript
+TypeScript란?
 =============
 
 ### 왜 TypeScript를 사용할까?
