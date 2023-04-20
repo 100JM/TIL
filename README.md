@@ -4,13 +4,14 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_18 TILs and counting..._
+_19 TILs and counting..._
 
 ---
 
 ### Categories
 
 - [javascript](#javascript)
+- [typescript](#typescript)
 
 ### [javascript](#javascript)
 - [Array](javascript/array.md)
@@ -31,6 +32,9 @@ _18 TILs and counting..._
 - [String](javascript/string.md)
 - [심볼(Symbol)](javascript/symbol.md)
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
+
+### [typescript](#typescript)
+- [TypeScript](typescript/why_typescript.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
