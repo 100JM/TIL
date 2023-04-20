@@ -46,6 +46,8 @@ showNumber 함수는 배열을 받아 반복문을 실행하는 함수인데 배
 
 <img src = "../img/typescript.2.png" width = "40%" height = "40%">
 
+***
+
 <img src = "../img/typescript.3.png" width = "40%" height = "40%">
 
 <img src = "../img/typescript.4.png" width = "40%" height = "40%">
