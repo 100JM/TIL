@@ -33,10 +33,15 @@ showNumber([1,2,3]);
 showNumber(1,2,3);
 // TypeError: arr.forEach is not a function
 ```
-showNumber 함수는 배열을 받아 반복문을 실행하는 함수인데 배열이 아닌 다른 인수를 받게되면 forEach 메서드가 없어서 TypeError가 발생한다.   
+showNumber 함수는 배열을 받아 반복문을 실행하는 함수인데 배열이 아닌 다른 인수를 받게되면 forEach 메서드가 없어 TypeError가 발생한다.   
 이렇게 **Javascript**는 실행되는 시점, 즉 런타임에 타입이 결정되고 오류가 있다면 그 때 발견하게 되는 **동적언어**다.   
 반면 **Java**같은 **정적언어**는 컴파일 타임에 타입이 결정되고 오류가 발견된다.   
 그래서 코드 작성 시간은 오래 걸리겠지만 초기에 생각을 많이 해서 코드를 작성한다면 안정적으로 작업을 진행할 수 있는 장점이 있다.
-**TypeScript**도 이러한 **정적 타입의 언어**이다.
+**TypeScript**도 이러한 **정적 타입의 언어**이다.   
 
-**진행중**
+위에 있는 예제들을 **TypeScript**로 작성 해보자.
+콜론과 함께 원하는 type을 적어주면 해당 인수는 지정한 type의 데이터만 들어와야하며 이와 맞지 않는 경우 오류들을 잡아준다.
+<img src = "../img/typescript.1.png" width = "40%" height = "40%">
+<img src = "../img/typescript.2.png" width = "40%" height = "40%">
+<img src = "../img/typescript.3.png" width = "40%" height = "40%">
+<img src = "../img/typescript.4.png" width = "40%" height = "40%">
