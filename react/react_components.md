@@ -5,7 +5,7 @@ React - Components
 **React**는 사용자 인터페이스를 좀 더 간단하고 편리하게 구축할 수 있는 자바스크립트 라이브러리다.   
 그러기위해 **React**는 **Components**라는 개념을 받아들였다.   
 **React** is all about **"Components"**   
-"리액트의 전부는 컴포넌트다" 라는 말도 있다.
+"리액트의 전부는 컴포넌트다" 라는 말도 있다.   
 그렇다면 **Components**란 정확히 무엇일까?   
 
 ### Components란?
