@@ -4,13 +4,14 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_19 TILs and counting..._
+_20 TILs and counting..._
 
 ---
 
 ### Categories
 
 - [javascript](#javascript)
+- [react](#react)
 - [typescript](#typescript)
 
 ### [javascript](#javascript)
@@ -32,6 +33,9 @@ _19 TILs and counting..._
 - [String](javascript/string.md)
 - [심볼(Symbol)](javascript/symbol.md)
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
+
+### [react](#react)
+- [React - Components](react/react_components.md)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
