@@ -35,7 +35,7 @@ _20 TILs and counting..._
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
 
 ### [react](#react)
-- [React - Components](react/react_components.md)
+- [React](react/react_components.md)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
