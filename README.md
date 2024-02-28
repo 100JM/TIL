@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_21 TILs and counting..._
+_22 TILs and counting..._
 
 ---
 
@@ -16,6 +16,7 @@ _21 TILs and counting..._
 
 ### [javascript](#javascript)
 - [Array](javascript/array.md)
+- [화살표 함수](javascript/arrow_function.md)
 - [async / await](javascript/async_await.md)
 - [call / apply / bind](javascript/call_apply_bind.md)
 - [Class](javascript/class.md)
