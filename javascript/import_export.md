@@ -53,7 +53,7 @@ export let name = 'Tom';
 export let job = 'Spider-Man';
 ```
 
-- default export
+- default export   
 export default 구문을 통해 모듈을 대표하는 하나의 값을 지정하고 그 값을 불러와 사용할 수 있다.
 ```javascript
 // util.js
@@ -73,6 +73,7 @@ import add from './util.js';
 console.log(add(1, 2)); // 3
 ```
 
+- 다른 이름으로 import & export 하기   
 default export와 일반적인 export를 동시에 가져올 수 있으며 이름뒤에 as를 붙혀서 다른 이름으로 사용할 수도 있다.
 ```javascript
 // app.js
