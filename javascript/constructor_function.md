@@ -44,13 +44,12 @@ function User(firstName, lastName){
         console.log(`My name is ${firstName} ${lastName}`)
     }
     // return this;
+}
 
-    let user = new User('Tom', 'Holland'); // User {firstName : 'Tom', lastName : 'Holland'. sayMyName : ƒ}
+ let user = new User('Tom', 'Holland'); // User {firstName : 'Tom', lastName : 'Holland'. sayMyName : ƒ}
     // new 키워드를 사용하지 않으면 undefined, 즉 객체가 할당되지 않는다.
     
-    user.firstName // Tom
-    user.lastName // Holland
-    user.sayMyName(); // My name is Tom Holland
-
-}
+user.firstName // Tom
+user.lastName // Holland
+user.sayMyName(); // My name is Tom Holland
 ```
