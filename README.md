@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_20 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
@@ -23,6 +23,7 @@ _20 TILs and counting..._
 - [생성자 함수](javascript/constructor_function.md)
 - [구조 분해 할당(Destructuring assignment)](javascript/destructuring_assignment.md)
 - [Generator](javascript/generator.md)
+- [import & export](javascript/import_export.md)
 - [상속과 프로토타입](javascript/inheritance_prototype.md)
 - [숫자(Number)와 수학(Math)](javascript/number_math.md)
 - [Object - methods / Computed property](javascript/object_methods_computed_property.md)
@@ -35,7 +36,7 @@ _20 TILs and counting..._
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
 
 ### [react](#react)
-- [React](react/react_components.md)
+- [React](react/react.md)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
