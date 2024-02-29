@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_22 TILs and counting..._
+_23 TILs and counting..._
 
 ---
 
@@ -35,6 +35,7 @@ _22 TILs and counting..._
 - [String](javascript/string.md)
 - [심볼(Symbol)](javascript/symbol.md)
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
+- [참조형 & 기본형](javascript/참조형과 기본값의 차이.md)
 
 ### [react](#react)
 - [React](react/react.md)
