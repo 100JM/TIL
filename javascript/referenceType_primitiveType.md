@@ -2,7 +2,7 @@
 =============
 
 ### 참조형과 기본형
-String, Number, boolean은 모두 **기본형(Primitive type)**이다.   
+String, Number, boolean은 모두 **기본형(Primitive type)** 이다.   
 자바스크립트의 기본형 값의 특징은 변경할 수  없다는 점이다.
 ```javascript
 let name = 'Tom';
