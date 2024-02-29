@@ -29,7 +29,7 @@ _23 TILs and counting..._
 - [숫자(Number)와 수학(Math)](javascript/number_math.md)
 - [Object - methods / Computed property](javascript/object_methods_computed_property.md)
 - [Promise](javascript/promise.md)
-- [참조형&기본형](javascript/reference Type_primitive type.md)
+- [참조형 & 기본형](javascript/referenceType_primitiveType.md)
 - [나머지 매개변수(Rest parameters) / 전개 구문(Spread syntax)](javascript/rest_parameters_spread_syntax.md)
 - [setTimeout / setInterval](javascript/settimeout_stinterval.md)
 - [arr.sort() / arr.reduce()](javascript/sort_reduce.md)
