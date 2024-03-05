@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_23 TILs and counting..._
+_24 TILs and counting..._
 
 ---
 
@@ -38,8 +38,8 @@ _23 TILs and counting..._
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
 
 ### [react](#react)
+- [이미지 저장소 - public vs assets](react/public_vs_src_assets.md)
 - [React](react/react.md)
-- [React - 기본&핵심 개념](https://github.com/100JM/react-study-project)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
