@@ -39,6 +39,7 @@ _23 TILs and counting..._
 
 ### [react](#react)
 - [React](react/react.md)
+- [React - 기본&핵심 개념](https://github.com/100JM/react-study-project)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
