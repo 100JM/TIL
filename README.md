@@ -38,9 +38,9 @@ _25 TILs and counting..._
 - [변수 - hoisting, tdz, scope](javascript/variable_hoisting_tdz_scope.md)
 
 ### [react](#react)
-- [이미지 저장소 - public vs assets](react/public_vs_src_assets.md)
 - [React](react/react.md)
 - [React 핵심 - 컴포넌트, JSX, 속성, 상태 등](react/react_basic.md)
+- [이미지 저장소 - public vs assets](react/public_vs_src_assets.md)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
