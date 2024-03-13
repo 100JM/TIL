@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_24 TILs and counting..._
+_25 TILs and counting..._
 
 ---
 
@@ -40,6 +40,7 @@ _24 TILs and counting..._
 ### [react](#react)
 - [이미지 저장소 - public vs assets](react/public_vs_src_assets.md)
 - [React](react/react.md)
+- [React 핵심 - 컴포넌트, JSX, 속성, 상태 등](react/react_basic.md)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
