@@ -50,7 +50,7 @@ styeld-components 패키지는 바닐라 CSS를 기반으로하는 솔루션 중
 styled-components로부터 styled를 import하고 자바스크립트 객체인 styled를 사용하여 다른 속성에 접근한다.   
 매핑되는 속성들은 해당 html 요소를 개발자가 설정한 스타일을 가지는 개별 컴포넌트로 만들어준다.   
 작성한 요소 속성 다음 백틱 안에 원하는 스타일을 설정하면 된다.   
-<img src = "../img/styledComponent.1.png" width = "40%" height = "40%">
+<img src = "../img/styledComponent.1.png" width = "20%" height = "20%">
 <img src = "../img/styledComponent.2.png" width = "20%" height = "20%">   
 
 적용된 스타일을 살펴보면 styled-components는 고유한 CSS 클래스 이름은 생성하고 헤더 섹션에서 해당 클래스에대해 개발자가 작성한 CSS 규칙을 정의한다.   
@@ -68,12 +68,12 @@ styled-components로부터 styled를 import하고 자바스크립트 객체인 s
 아래 사진처럼 & 기호가 header 요소를 가르키는거라 생각하면 될 것같다.   
 > & 다음 공백이 있어야 해당 요소의 하위 요소가 목표가된다.
 
-<img src = "../img/styledComponent.7.png" width = "20%" height = "20%">   
+<img src = "../img/styledComponent.7.png" width = "30%" height = "30%">   
 
 가상(pseudo) 선택자의 경우 아래와 같이 작성한다.   
 > 해당 요소 자체가 목표가 되어야 하는 경우 & 기호다음 빈 공간 없이 작성한다.
 
-<img src = "../img/styledComponent.8.png" width = "20%" height = "20%">   
+<img src = "../img/styledComponent.8.png" width = "30%" height = "30%">   
 
 ### 장단점
 - 장점
