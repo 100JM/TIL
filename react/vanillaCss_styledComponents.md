@@ -61,19 +61,19 @@ styled-components로부터 styled를 import하고 자바스크립트 객체인 s
 조건부 스타일링 또한 가능하며 styled-components 스타일링 코드에서만 사용하고 싶은 속성에는 달러 기호를 사용하는 것이 일반 규칙이다.   
 이렇게하면 내장 속성과 출동하지 않는다.   
 <img src = "../img/styledComponent.5.png" width = "40%" height = "40%">
-<img src = "../img/styledComponent.6.png" width = "20%" height = "20%">   
+<img src = "../img/styledComponent.6.png" width = "30%" height = "30%">   
 
 ### 가상 선택자, 중첩 규칙 & 미디어 쿼리
 & 기호를 사용하여 해당 요소내의 다른 요소들의 규칙이나 미디어 쿼리를 작성한다.   
 아래 사진처럼 & 기호가 header 요소를 가르키는거라 생각하면 될 것같다.   
 > & 다음 공백이 있어야 해당 요소의 하위 요소가 목표가된다.
 
-<img src = "../img/styledComponent.7.png" width = "40%" height = "40%">   
+<img src = "../img/styledComponent.7.png" width = "20%" height = "20%">   
 
 가상(pseudo) 선택자의 경우 아래와 같이 작성한다.   
 > 해당 요소 자체가 목표가 되어야 하는 경우 & 기호다음 빈 공간 없이 작성한다.
 
-<img src = "../img/styledComponent.8.png" width = "40%" height = "40%">   
+<img src = "../img/styledComponent.8.png" width = "20%" height = "20%">   
 
 ### 장단점
 - 장점
