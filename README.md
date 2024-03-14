@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_26 TILs and counting..._
+_27 TILs and counting..._
 
 ---
 
@@ -12,6 +12,7 @@ _26 TILs and counting..._
 
 - [javascript](#javascript)
 - [react](#react)
+- [tailwind](#tailwind)
 - [typescript](#typescript)
 
 ### [javascript](#javascript)
@@ -42,6 +43,9 @@ _26 TILs and counting..._
 - [React](react/react.md)
 - [React 핵심 - 컴포넌트, JSX, 속성, 상태 등](react/react_basic.md)
 - [React - vanilla CSS & styled-components](react/vanillaCss_styledComponents.md)
+
+### [tailwind](#tailwind)
+- [Tailwind CSS](tailwind/tailwind_css.md)
 
 ### [typescript](#typescript)
 - [TypeScript란?](typescript/why_typescript.md)
