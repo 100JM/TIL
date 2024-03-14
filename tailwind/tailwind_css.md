@@ -38,4 +38,4 @@ Tailwind CSS의 공식 문서에세 정의된 모든 클래스의 이름을 찾�
 이는 Tailwind 팀에서 자체적으로 출시한 것으로 코드를 작성할때 **클래스 이름을 제안** 받고 해당 클래스가 **어떠한 스타일링이 적용되는지** 미리 확인해볼 수 있는 아주 좋은 프로그램이다.   
 설치하는 것을 적극 추천한다.   
 <img src = "../img/tailwind.1.png" width = "40%" height = "40%">   
-<img src = "../img/tailwind.2.png" width = "40%" height = "40%">   
+<img src = "../img/tailwind.2.png" width = "80%" height = "80%">   
