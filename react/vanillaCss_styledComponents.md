@@ -37,8 +37,8 @@ CSS 모듈을 사용한 컴포넌트에서 아래와 같이 import 한다음 사
 
 랜더링된 DOM에 적용된 클래스와 헤더 섹션에 주입된 스타일 살펴보면 이상한 이름이 있는 것을 볼 수 있는데 이는 빌드 툴에 의해 자동으로 생성된 것이다.   
 이것이 CSS 모듈의 개념이며 이 클래스 이름은 이제 해당 컴포넌트에 대해 고유하게된다.   
-<img src = "../img/cssModule.4.png" width = "40%" height = "40%">   
-<img src = "../img/cssModule.5.png" width = "40%" height = "40%">   
+<img src = "../img/cssModule.4.png" width = "20%" height = "20%">   
+<img src = "../img/cssModule.5.png" width = "20%" height = "20%">   
 
 styled-components
 --------
@@ -51,17 +51,17 @@ styled-components로부터 styled를 import하고 자바스크립트 객체인 s
 매핑되는 속성들은 해당 html 요소를 개발자가 설정한 스타일을 가지는 개별 컴포넌트로 만들어준다.   
 작성한 요소 속성 다음 백틱 안에 원하는 스타일을 설정하면 된다.   
 <img src = "../img/styledComponent.1.png" width = "40%" height = "40%">
-<img src = "../img/styledComponent.2.png" width = "40%" height = "40%">   
+<img src = "../img/styledComponent.2.png" width = "20%" height = "20%">   
 
 적용된 스타일을 살펴보면 styled-components는 고유한 CSS 클래스 이름은 생성하고 헤더 섹션에서 해당 클래스에대해 개발자가 작성한 CSS 규칙을 정의한다.   
 그런 다음 생성된 클래스를 요소에 추가한다.   
-<img src = "../img/styledComponent.3.png" width = "40%" height = "40%">
-<img src = "../img/styledComponent.4.png" width = "40%" height = "40%">   
+<img src = "../img/styledComponent.3.png" width = "20%" height = "20%">
+<img src = "../img/styledComponent.4.png" width = "20%" height = "20%">   
 
 조건부 스타일링 또한 가능하며 styled-components 스타일링 코드에서만 사용하고 싶은 속성에는 달러 기호를 사용하는 것이 일반 규칙이다.   
 이렇게하면 내장 속성과 출동하지 않는다.   
 <img src = "../img/styledComponent.5.png" width = "40%" height = "40%">
-<img src = "../img/styledComponent.6.png" width = "40%" height = "40%">   
+<img src = "../img/styledComponent.6.png" width = "20%" height = "20%">   
 
 ### 가상 선택자, 중첩 규칙 & 미디어 쿼리
 & 기호를 사용하여 해당 요소내의 다른 요소들의 규칙이나 미디어 쿼리를 작성한다.   
