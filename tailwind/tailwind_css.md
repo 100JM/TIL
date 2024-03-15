@@ -46,13 +46,10 @@ Tailwind CSS의 공식 문서에세 정의된 모든 클래스의 이름을 찾�
 > 아래와같이 정의된 클래스들을 넣어주면 스타일이 적용된다.<img src = "../img/tailwind.3.png" width = "80%" height = "80%">   
 
 2. 바닐라 CSS도 사용 가능하다.   
-> Tailwind에서 정의한 클래스만 사용하는 것이 아니라 본인이 직접 정한 스타일링 규칙도 CSS 파일에 추가하여 사용한다.
-<img src = "../img/tailwind.4.png" width = "40%" height = "40%">   
+> Tailwind에서 정의한 클래스만 사용하는 것이 아니라 본인이 직접 정한 스타일링 규칙도 CSS 파일에 추가하여 사용한다.<img src = "../img/tailwind.4.png" width = "40%" height = "40%">   
 
 3. 커스텀(사용자 정의)가 가능하다.
-> 폰트를 설정한 예시   
-<img src = "../img/tailwind.5.png" width = "40%" height = "40%">   
-<img src = "../img/tailwind.6.png" width = "80%" height = "80%">   
+> 폰트를 설정한 예시   <img src = "../img/tailwind.5.png" width = "40%" height = "40%">   <img src = "../img/tailwind.6.png" width = "80%" height = "80%">   
 
 4. 스타일링된 재사용이 가능한 컴포넌트를 만들 수 있다는 것이 리액트와 잘 어울린다.
 
