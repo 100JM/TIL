@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_27 TILs and counting..._
+_28 TILs and counting..._
 
 ---
 
@@ -42,6 +42,7 @@ _27 TILs and counting..._
 - [이미지 저장소 - public vs assets](react/public_vs_src_assets.md)
 - [React](react/react.md)
 - [React 핵심 - 컴포넌트, JSX, 속성, 상태 등](react/react_basic.md)
+- [React - ref & potal](react/ref_potal.md)
 - [React - vanilla CSS & styled-components](react/vanillaCss_styledComponents.md)
 
 ### [tailwind](#tailwind)
