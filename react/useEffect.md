@@ -18,7 +18,7 @@ import React, { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    console.log('I'm useEffect');
+    console.log('I am useEffect');
   })
 
   return (
@@ -35,7 +35,7 @@ import React, { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    console.log('I'm useEffect');
+    console.log('I am useEffect');
   }, [])
 
   return (
@@ -52,7 +52,7 @@ import React, { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    console.log('I'm useEffect');
+    console.log('I am useEffect');
   }, [dependency])
 
   return (
