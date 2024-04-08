@@ -43,7 +43,7 @@ _29 TILs and counting..._
 - [React](react/react.md)
 - [React 핵심 - 컴포넌트, JSX, 속성, 상태 등](react/react_basic.md)
 - [React - ref & potal](react/ref_potal.md)
-- [React - useEffect](react/useEffect.md)
+- [React - useEffect & useCallback](react/useEffect.md)
 - [React - vanilla CSS & styled-components](react/vanillaCss_styledComponents.md)
 
 ### [tailwind](#tailwind)
