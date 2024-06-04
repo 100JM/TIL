@@ -4,7 +4,7 @@
 프론트엔드 개발자가 되기 위한 기록💻
 
 
-_30 TILs and counting..._
+_31 TILs and counting..._
 
 ---
 
@@ -43,6 +43,7 @@ _30 TILs and counting..._
 - [React](react/react.md)
 - [React 핵심 - 컴포넌트, JSX, 속성, 상태 등](react/react_basic.md)
 - [React - ref & potal](react/ref_potal.md)
+- [React - redux](react/rredux.md)
 - [React - useEffect & useCallback](react/useEffect_useCallback.md)
 - [React - useMemo와 useCallback(React 성능 최적화 훅)](react/useMemo.md)
 - [React - vanilla CSS & styled-components](react/vanillaCss_styledComponents.md)
