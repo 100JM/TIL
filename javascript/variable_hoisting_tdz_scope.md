@@ -31,7 +31,7 @@ var name = 'Tom';
 *선언은 호이스팅 되지만 할당은 그렇지 않아 undefined로 찍힌다*   
 ```javascript
 var name;
-console.log(name); // undefined
+console.log(name); // Tom
 name = 'Tom';
 ```
 
